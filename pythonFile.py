@@ -8,6 +8,17 @@
 # String escape escape2 = "using tab \t using tab \t"
 # String Raw raw = r'file path'
 # String multi-line multi = """ string multi lines """
+# In?   name = 'YeraRhee' print ('a' in name)
+# Functions: islower() / endswith('s') / capitalize() /a.replace('this','that') list(reversed(b))
+
+# list
+#  a = [], b = list()
+# del a[index] a.remove(value) a.pop()
+# a.append(6) a.insert(index, value) a.extend(list)
 
 
-   
+  
+  
+
+
+    
