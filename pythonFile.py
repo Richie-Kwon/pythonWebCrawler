@@ -14,11 +14,20 @@
 # list
 #  a = [], b = list()
 # del a[index] a.remove(value) a.pop()
-# a.append(6) a.insert(index, value) a.extend(list)
+# # a.append(6) a.insert(index, value) a.extend(list)
+# a.index(value) a.count(value)
+
+# Tuple
+# a =()     
+
+# Dictionary
+# a = {'name' : 'richie', 'phone':'0000000'}   
+# print(a['name']) or a.get('name')
+# a['address']= sw19
+# print(list(a.keys())) print(list (a.values)) print(list (a.items))
+# print (2 in a)  
 
 
-  
-  
 
 
     
