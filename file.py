@@ -29,6 +29,11 @@ print("Average : {0}", sum(score)/len(score))
 with open('filepass', 'w') as f: 
     f.write('contents\n')
 
+with open('filepass', 'w') as f: 
+    print('Test1', file=f)
+    print('Test2', file=f)
+
 # file adding
 with open('filepass', 'a') as f: 
     f.write('contents2')
+
