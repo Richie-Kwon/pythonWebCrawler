@@ -18,10 +18,25 @@ with open ('filepath', 'r') as f:
         print ('______________________')
 
 
-# write a csv file with a list
+# write a csv file with a list(1)
 # w = list
 with open ('filepath', 'w', newline='') as f:
     wt = csv.writer(f)
     for v in w:
         wt.writerow(v)
+
+# write a csv file with a list(2)
+with open ('filepath', 'w', newline='') as f:
+    wt = csv.writer(f)
+    wt.writerows(w)
+
+# Pandas, xlrd, 
+import pandas as pd 
+a = pd.read_excel('path', sheetname = 'go', skiprows=4)
+print(a.shape)
+
+b.to_excel('path(---b.xlsx', index=False)
+
+
+
 
